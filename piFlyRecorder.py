@@ -58,7 +58,7 @@ while True:
         # Update log counter
         logCounter += 1
         # Output data to file
-        with open(("pifly-log-" + logCounter + ".json"), "w") as write_file:
+        with open(("pifly-log-" + str(logCounter) + ".json"), "w") as write_file:
             json.dump(data, write_file)
 
     time.sleep(interval)
