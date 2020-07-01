@@ -3,6 +3,7 @@
 import time
 from bmp280 import BMP280
 from icm20948 import ICM20948
+import json
 
 try:
     from smbus2 import SMBus
